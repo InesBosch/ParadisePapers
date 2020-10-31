@@ -17,7 +17,7 @@ A tuple in this relation contains an officer's (a person directly involved in a 
     2. Intermediary (iID, cID, iName) 
 A tuple in this relation contains an intermediary's (a person who is indirectly involved in a shell corporation) personal ID, country of residence ID, and name.
 
-    3. Entity (eID, cID, jurisdictionID)
+    3. Entity (eID, cID, jurisdictionID, incorporationDate, closeDate)
 A tuple in this relation contains an entity's (a shell corporation) ID, country of origin ID, and location of operation (jurisdiction) ID.
 
     4. Address (aID, address, cID)
