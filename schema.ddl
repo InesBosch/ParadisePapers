@@ -17,42 +17,39 @@ create domain CPIndex as smallint
     check(value>=0 and value<=100);
 
 create table Country (
-	cID integer primary key,
+	cID varchar(3) primary key,
 	cName varchar(45) not null unique,
 	population integer not null
 );
 
 create table Officer (
 	oID integer primary key,
-	cID integer not null,
-	oName varchar(45),
+	cID varchar(3) not null,
+	oName varchar(45) not null,
 	foreign key (cID) references Country
 );
 
 create table Entity (
 	eID integer primary key,
-	cID integer not null,
-	jurisdictionID integer,
-	incorporationDate date not null,
-	closeDate date,
-	foreign key (cID) references Country
+	eName varchar(45) not null,
+	jurisdictionID varchar(3) not null,
+	foreign key (jurisdictionID) references Country
 );
 
 create table Intermediary (
 	iID integer primary key,
-	cID integer not null,
+	cID varchar(3) not null,
 	iName varchar(45),
 	foreign key (cID) references Country
 );
 
 create table HumanDevelopment (
-	cID integer primary key,
-	hdiRank HDIRank,
-	foreign key (cID) references Country
+	cName varchar(45) primary key,
+	hdiRank HDIRank
 );
 
 create table CorruptionPerception(
-	cID integer primary key,
+	cID varchar(3) primary key,
 	cpindex CPIndex,
 	foreign key (cID) references Country
 );
