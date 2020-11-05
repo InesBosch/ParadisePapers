@@ -1,7 +1,7 @@
 ﻿cName,population
 China,1439323.776
 India,1380004.385
-United States,331002.651
+United States of America,331002.651
 Indonesia,273523.615
 Pakistan,220892.34
 Brazil,212559.417
@@ -14,7 +14,7 @@ Ethiopia,114963.588
 Philippines,109581.078
 Egypt,102334.404
 Vietnam,97338.579
-DR Congo,89561.403
+Democratic Republic of the Congo,89561.403
 Turkey,84339.067
 Iran,83992.949
 Germany,83783.942
@@ -51,7 +51,7 @@ Nepal,29136.808
 Venezuela,28435.94
 Madagascar,27691.018
 Cameroon,26545.863
-Ivory Coast,26378.274
+Cote d'Ivoire,26378.274
 North Korea,25778.816
 Australia,25499.884
 Niger,24206.644
@@ -115,7 +115,7 @@ Turkmenistan,6031.2
 Singapore,5850.342
 Denmark,5792.202
 Finland,5540.72
-Republic of the Congo,5518.087
+Congo,5518.087
 Slovakia,5459.642
 Norway,5421.241
 Oman,5106.626
@@ -150,6 +150,7 @@ Macedonia,2083.374
 Slovenia,2078.938
 Guinea-Bissau,1968.001
 Latvia,1886.198
+Kosovo,1810.0
 Bahrain,1701.575
 Equatorial Guinea,1402.985
 Trinidad and Tobago,1399.488
@@ -170,10 +171,10 @@ Montenegro,628.066
 Luxembourg,625.978
 Western Sahara,597.339
 Suriname,586.632
-Cape Verde,555.987
+Cabo Verde,555.987
 Maldives,540.544
 Malta,441.543
-Brunei,437.479
+Brunei Darussalam,437.479
 Guadeloupe,400.124
 Belize,397.628
 Bahamas,393.244
@@ -203,6 +204,7 @@ Antigua and Barbuda,97.929
 Isle of Man,85.033
 Andorra,77.265
 Dominica,71.986
+Guernsey,67.052
 Cayman Islands,65.722
 Bermuda,62.278
 Marshall Islands,59.19

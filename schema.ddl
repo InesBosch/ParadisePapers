@@ -4,10 +4,11 @@ set search_path to ParadisePapers;
 
 -- The Human Development Index is defined as a rational number between 0 and 1 
 -- The higher the value the higher the country's development
+-- We will be using the country rank, as per their index
 -- Reference: https://en.wikipedia.org/wiki/Human_Development_Index
-create domain HDIRank as numeric(10,3) 
+create domain HDIRank as smallint 
     default null 
-    check(value>=0 and value<=1.0);
+    check(value>=0 and value<=200);
 
 -- The Corruption Perception Index is defined as an integer number between 0 and 100
 -- The lower the value the more corrupt the coutry 
@@ -17,35 +18,35 @@ create domain CPIndex as smallint
     check(value>=0 and value<=100);
 
 create table Country (
-	cID varchar(3) primary key,
 	cName varchar(45) not null unique,
-	population integer not null
+	cID varchar(3) primary key,
+	population float not null
 );
 
 create table Officer (
 	oID integer primary key,
+	oName varchar(100) not null,
 	cID varchar(3) not null,
-	oName varchar(45) not null,
 	foreign key (cID) references Country
 );
 
 create table Entity (
 	eID integer primary key,
-	eName varchar(45) not null,
+	eName varchar(100) not null,
 	jurisdictionID varchar(3) not null,
 	foreign key (jurisdictionID) references Country
 );
 
 create table Intermediary (
 	iID integer primary key,
+	iName varchar(100),
 	cID varchar(3) not null,
-	iName varchar(45),
 	foreign key (cID) references Country
 );
 
 create table HumanDevelopment (
-	cName varchar(45) primary key,
-	hdiRank HDIRank
+	hdiRank HDIRank,
+	cName varchar(45) primary key
 );
 
 create table CorruptionPerception(

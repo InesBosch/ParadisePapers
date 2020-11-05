@@ -1,10 +1,23 @@
 cName,cID,population
 Aruba,AW,106.766
 Jersey,JEY,98.07
+Monaco,MCO,39.242
 British Virgin Islands,VGB,30.230999999999998
-Cayman Islands,KY,65.722
+United States Virgin Islands,VIR,104.425
+Fiji,FJI,896.445
+Belize,BLZ,397.62800000000004
+Cayman Islands,CYM,65.722
+Guernsey,GGY,67.05199999999999
+Samoa,WSM,198.41400000000002
+Marshall Islands,MHL,59.19
+Gibraltar,GIB,33.691
+Liechtenstein,LIE,38.128
+Curacao,CUW,164.093
+Macau,MAC,649.335
+Turks and Caicos Islands,TCA,38.717
+Andorra,AND,77.265
 Saint Kitts and Nevis,KNA,53.199
-Bermuda,BM,62.278
+Bermuda,BMU,62.278
 Isle of Man,IMN,85.03299999999999
 Denmark,DNK,5792.201999999999
 New Zealand,NZL,4822.233
@@ -27,6 +40,7 @@ Estonia,EST,1326.535
 Ireland,IRL,4937.786
 Japan,JPN,126476.461
 France,FRA,65273.511
+United States of America,USA,331002.651
 United Arab Emirates,ARE,9890.402
 Uruguay,URY,3473.73
 Barbados,BRB,287.375
@@ -35,6 +49,7 @@ Chile,CHL,19116.201
 Seychelles,SYC,98.34700000000001
 Bahamas,BHS,393.244
 Portugal,PRT,10196.709
+Brunei Darussalam,BRN,437.47900000000004
 Taiwan,TWN,23816.775
 Qatar,QAT,2881.053
 Botswana,BWA,2351.627
@@ -48,7 +63,9 @@ Georgia,GEO,3989.167
 Latvia,LVA,1886.1979999999999
 Saint Vincent and the Grenadines,VCT,110.94
 Spain,ESP,46754.778
+Cabo Verde,CPV,555.987
 Dominica,DMA,71.986
+South Korea,KOR,51269.185
 Costa Rica,CRI,5094.1179999999995
 Rwanda,RWA,12952.218
 Saint Lucia,LCA,183.627
@@ -96,11 +113,12 @@ Sri Lanka,LKA,21413.249
 Swaziland,SWZ,1160.164
 Gambia,GMB,2416.6679999999997
 Guyana,GUY,786.552
+Kosovo,KSV,1810.0
 Macedonia,MKD,2083.374
 Mongolia,MNG,3278.29
 Panama,PAN,4314.767
 Albania,ALB,2877.797
-Bahrain,BHR,1701.575
+Bahrain,BAH,1701.575
 Colombia,COL,50882.890999999996
 Philippines,PHL,109581.07800000001
 Tanzania,TZA,59734.218
@@ -108,6 +126,7 @@ Thailand,THA,69799.978
 Algeria,DZA,43851.044
 Armenia,ARM,2963.243
 Brazil,BRA,212559.417
+Cote d'Ivoire,CIV,26378.273999999998
 Egypt,EGY,102334.40400000001
 El Salvador,SLV,6486.205
 Peru,PER,32971.854
@@ -161,17 +180,21 @@ Mozambique,MOZ,31255.435
 Uzbekistan,UZB,33469.203
 Zimbabwe,ZWE,14862.923999999999
 Cambodia,KHM,16718.965
+Democratic Republic of the Congo,COD,89561.403
 Haiti,HTI,11402.528
 Turkmenistan,TKM,6031.2
 Angola,AGO,32866.272000000004
 Chad,TCD,16425.863999999998
+Congo,COG,5518.0869999999995
 Iraq,IRQ,40222.492999999995
 Venezuela,VEN,28435.94
 Burundi,BDI,11890.784
 Libya,LBY,6871.2919999999995
 Afghanistan,AFG,38928.346
 Equatorial Guinea,GNQ,1402.985
+Guinea-Bissau,GNB,1968.001
 Sudan,SDN,43849.26
+North Korea,PRK,25778.816000000003
 Yemen,YEM,29825.964
 South Sudan,SSD,11193.725
 Syria,SYR,17500.658

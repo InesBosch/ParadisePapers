@@ -1,10 +1,23 @@
 cName,cID,cpindex
 Aruba,AW,0
 Jersey,JEY,0
+Monaco,MCO,0
 British Virgin Islands,VGB,0
-Cayman Islands,KY,0
+United States Virgin Islands,VIR,0
+Fiji,FJI,0
+Belize,BLZ,0
+Cayman Islands,CYM,0
+Guernsey,GGY,0
+Samoa,WSM,0
+Marshall Islands,MHL,0
+Gibraltar,GIB,0
+Liechtenstein,LIE,0
+Curacao,CUW,0
+Macau,MAC,0
+Turks and Caicos Islands,TCA,0
+Andorra,AND,0
 Saint Kitts and Nevis,KNA,0
-Bermuda,BM,0
+Bermuda,BMU,0
 Isle of Man,IMN,0
 Denmark,DNK,88
 New Zealand,NZL,87
@@ -52,7 +65,7 @@ Saint Vincent and the Grenadines,VCT,58
 Spain,ESP,58
 Cabo Verde,CPV,57
 Dominica,DMA,57
-"Korea, South",KOR,57
+South Korea,KOR,57
 Costa Rica,CRI,56
 Rwanda,RWA,56
 Saint Lucia,LCA,55
@@ -105,7 +118,7 @@ Macedonia,MKD,37
 Mongolia,MNG,37
 Panama,PAN,37
 Albania,ALB,36
-Bahrain,BHR,36
+Bahrain,BAH,36
 Colombia,COL,36
 Philippines,PHL,36
 Tanzania,TZA,36
@@ -179,9 +192,9 @@ Burundi,BDI,17
 Libya,LBY,17
 Afghanistan,AFG,16
 Equatorial Guinea,GNQ,16
-Guinea Bissau,GNB,16
+Guinea-Bissau,GNB,16
 Sudan,SDN,16
-"Korea, North",PRK,14
+North Korea,PRK,14
 Yemen,YEM,14
 South Sudan,SSD,13
 Syria,SYR,13
