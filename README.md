@@ -17,7 +17,7 @@ A tuple in this relation contains an officer's (a person directly involved in a 
     2. Intermediary (iID, cID, iName) 
 A tuple in this relation contains an intermediary's (a person who is indirectly involved in a shell corporation) personal ID, country of residence ID, and name.
 
-    3. Entity (eID, cID, jurisdictionID, incorporationDate, closeDate)
+    3. Entity (eID, cID, jurisdictionID)
 A tuple in this relation contains an entity's (a shell corporation) ID, country of origin ID, and location of operation (jurisdiction) ID.
 
     4. Address (aID, address, cID)
@@ -26,13 +26,13 @@ A tuple in this relation contains the address of officers/intermediaries/entitie
     5. Country (cID, cName, population)
 A tuple in this relation contains a given country's ID, name, and population.
 
-    6. HumanDevelopment (cID,  HDIRank) 
-A tuple in this relation contains a country's ID and human development index rank.
+    6. HumanDevelopment (cName,  HDIRank) 
+A tuple in this relation contains a country's name and human development index rank.
 
     7. CorruptionPerception (cID, CPIndex)
 A tuple in this relation contains a country's ID and perceived corruption index.
 ## Todo
-We are currently working on removing null values, redundant values and on the creation of the PostgreSQL database.
+We are currently working on the creation of the PostgreSQL database and the analysis of our investigative questions.
 ## Credits
 Thanks to the ICIJ, the UN, and the Transparency International organizations for providing the open data for this project!
 
