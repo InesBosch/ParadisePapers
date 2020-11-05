@@ -19,7 +19,7 @@ hdiRank,cName
 103,Belize
 163,Benin
 134,Bhutan
-114,Bolivia (Plurinational State of)
+114,Bolivia 
 75,Bosnia and Herzegovina
 94,Botswana
 79,Brazil
@@ -38,13 +38,13 @@ hdiRank,cName
 79,Colombia
 156,Comoros
 138,Congo
-179,Congo (Democratic Republic of the)
+179,Democratic Republic of the Congo
 68,Costa Rica
 46,Croatia
 72,Cuba
 31,Cyprus
-26,Czechia
-165,Côte d'Ivoire
+26,Czech Republic
+165,Cote d'Ivoire
 11,Denmark
 171,Djibouti
 98,Dominica
@@ -73,12 +73,12 @@ hdiRank,cName
 123,Guyana
 169,Haiti
 132,Honduras
-4,"Hong Kong, China (SAR)"
+4,Hong Kong
 43,Hungary
 6,Iceland
 129,India
 111,Indonesia
-65,Iran (Islamic Republic of)
+65,Iran 
 120,Iraq
 3,Ireland
 22,Israel
@@ -89,7 +89,7 @@ hdiRank,cName
 50,Kazakhstan
 147,Kenya
 132,Kiribati
-22,Korea (Republic of)
+22,South Korea
 57,Kuwait
 122,Kyrgyzstan
 140,Lao People's Democratic Republic
@@ -112,7 +112,7 @@ hdiRank,cName
 66,Mauritius
 76,Mexico
 135,Micronesia (Federated States of)
-107,Moldova (Republic of)
+107,Moldova 
 92,Mongolia
 52,Montenegro
 121,Morocco
@@ -125,7 +125,7 @@ hdiRank,cName
 126,Nicaragua
 189,Niger
 158,Nigeria
-82,North Macedonia
+82,Macedonia
 1,Norway
 47,Oman
 152,Pakistan
@@ -140,7 +140,7 @@ hdiRank,cName
 40,Portugal
 41,Qatar
 52,Romania
-49,Russian Federation
+49,Russia
 157,Rwanda
 73,Saint Kitts and Nevis
 89,Saint Lucia
