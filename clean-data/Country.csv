@@ -2,6 +2,20 @@ cName,cID,population
 Aruba,AW,106.766
 Jersey,JEY,98.07
 Monaco,MCO,39.242
+Niue,NIU,1.626
+Nauru,NRU,10.824000000000002
+Faroe Islands,FRO,48.863
+Kiribati,KIR,119.449
+Anguilla,AIA,15.003
+Tonga,TON,105.695
+American Samoa,ASM,55.191
+Antigua and Barbuda,ATG,97.929
+British Indian Ocean Territory,IOT,3.0
+Tuvalu,TUV,11.792
+Puerto Rico,PRI,2860.853
+Cook Islands,COK,17.564
+San Marino,SMR,33.931
+French Guiana,GUF,298.682
 British Virgin Islands,VGB,30.230999999999998
 United States Virgin Islands,VIR,104.425
 Fiji,FJI,896.445
@@ -118,7 +132,7 @@ Macedonia,MKD,2083.374
 Mongolia,MNG,3278.29
 Panama,PAN,4314.767
 Albania,ALB,2877.797
-Bahrain,BAH,1701.575
+Bahrain,BHR,1701.575
 Colombia,COL,50882.890999999996
 Philippines,PHL,109581.07800000001
 Tanzania,TZA,59734.218

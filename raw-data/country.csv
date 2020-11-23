@@ -2,6 +2,20 @@ cName,cID,cpindex
 Aruba,AW,0
 Jersey,JEY,0
 Monaco,MCO,0
+Niue,NIU,0
+Nauru,NRU,0
+Faroe Islands,FRO,0
+Kiribati,KIR,0
+Anguilla,AIA,0
+Tonga,TON,0
+American Samoa,ASM,0
+Antigua and Barbuda,ATG,0
+British Indian Ocean Territory,IOT,0
+Tuvalu,TUV,0
+Puerto Rico,PRI,0
+Cook Islands,COK,0
+San Marino,SMR,0
+French Guiana,GUF,0
 British Virgin Islands,VGB,0
 United States Virgin Islands,VIR,0
 Fiji,FJI,0
@@ -118,7 +132,7 @@ Macedonia,MKD,37
 Mongolia,MNG,37
 Panama,PAN,37
 Albania,ALB,36
-Bahrain,BAH,36
+Bahrain,BHR,36
 Colombia,COL,36
 Philippines,PHL,36
 Tanzania,TZA,36

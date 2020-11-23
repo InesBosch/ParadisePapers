@@ -11,10 +11,14 @@ CREATE TABLE q1 (
     cName varchar(45)
 );
 
-DROP VIEW num_entities IF EXISTS CASCADE;
-DROP VIEW num_individuals IF EXISTS CASCADE;
-DROP VIEW percentage_individuals IF EXISTS CASCADE;
+DROP VIEW IF EXISTS num_entities CASCADE;
+DROP VIEW IF EXISTS num_individuals CASCADE;
+DROP VIEW IF EXISTS percentage_individuals CASCADE;
+DROP VIEW IF EXISTS biggest_tax_haven CASCADE;
+DROP VIEW IF EXISTS max_cheaters CASCADE;
+DROP VIEW IF EXISTS max_entities CASCADE;
 
+-- Number of entities per country
 create view num_entities as 
 select (CASE
     WHEN count(e.eid) IS NOT NULL THEN count(e.eid)
@@ -23,6 +27,7 @@ select (CASE
 from country c left join entity e on c.cID=e.jurisdictionID
 group by c.cID;
 
+-- Number of individuals (officer or intermediary)
 create view num_individuals as 
 select (CASE
     WHEN count(i.iid)+count(o.oid) IS NOT NULL THEN count(i.iid)+count(o.oid)
@@ -31,6 +36,7 @@ select (CASE
 from country c left join officer o on c.cID=o.cID left join Intermediary i on i.cID = c.cID
 group by c.cID;
 
+-- Percentage of individuals per country
 create view percentage_individuals as 
 select num_individuals.num_individuals/(c.population*1000)*100 as percentage_individuals, c.cID
 from num_individuals left join country c on num_individuals.cID = c.cID
@@ -57,11 +63,28 @@ select count(distinct ni.cID) as num_countries
 from num_individuals ni,num_entities ne
 where ni.num_individuals > 0 or ne.num_entities > 0 and ni.cID = ne.cID;
 
--- Biggest tax haven
+-- Biggest tax haven by percentage 
+create view biggest_tax_haven as
 select max(percentage_individuals) as max_percentage, cID, cName as biggest_tax_haven
 from q1
 group by cID,cName
 order by max_percentage desc
+limit 1;
+
+-- Country with greatest number of cheaters 
+create view max_cheaters as 
+select max(num_individuals) as max, cID
+from num_individuals
+group by cID 
+order by max desc
+limit 1;
+
+-- Country with most entities 
+create view max_entities as 
+select max(num_entities) as max, cID
+from num_entities
+group by cID 
+order by max desc
 limit 1;
 
 -- Upon comparing the human development index, the corruption perception index, and the percentage of the population that is corrupt,
